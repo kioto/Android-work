@@ -7,6 +7,9 @@ import android.view.View;
 
 // HelloWorld
 public class HelloView extends View {
+	
+	Paint mPaint = new Paint();
+	
 	// コンストラクタ
 	public HelloView(Context context) {
 		super(context);
@@ -16,6 +19,6 @@ public class HelloView extends View {
 	// 描画
 	@Override
 	protected void onDraw(Canvas canvas) {
-		canvas.drawText("Hellow World!!", 0, 12, new Paint());
+		canvas.drawText("Hellow World!!", 0, 12, mPaint);
 	}
 }
