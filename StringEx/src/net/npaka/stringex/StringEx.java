@@ -2,9 +2,6 @@ package net.npaka.stringex;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Window;
-
-import android.os.Bundle;
-import android.app.Activity;
 import android.view.Menu;
 
 // 文字列の描画
